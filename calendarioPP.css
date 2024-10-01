@@ -1,0 +1,115 @@
+#calendar-nav {
+    text-align: center;
+    margin: 20px;
+}
+
+#calendar-nav button {
+    padding: 10px;
+    background-color: #8590b8; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+#calendar-nav button:hover {
+    background-color:#8590b8; /* Fondo azul oscuro al pasar el ratón */
+}
+
+#calendar {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+#calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar th, #calendar td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Borde gris claro */
+}
+
+#calendar th {
+    background-color: #8590b8; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+}
+
+#calendar td {
+    cursor: pointer; /* Cursor de mano al pasar sobre las celdas */
+}
+
+#calendar td.reserved {
+    background-color: #ffcccc; /* Fondo rojo claro para horas reservadas */
+    cursor: not-allowed; /* Cursor no permitido */
+}
+
+#calendar td.selected {
+    background-color: #cce5ff; /* Fondo azul claro para el día seleccionado */
+}
+
+#appointment-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+#appointment-form h2 {
+    margin-bottom: 20px;
+}
+
+#appointment-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#appointment-form input, #appointment-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 5px;
+}
+
+#appointment-form button {
+    padding: 10px 20px;
+    background-color: #e39403; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#appointment-form button:hover {
+    background-color: #8590b8; /* Fondo azul oscuro al pasar el ratón */
+}
+/* Añadir clase para los días no disponibles */
+#calendar td.unavailable {
+    background-color: #ddd;
+    color: #d50b0b;
+    cursor: not-allowed;
+}
+
+.selected {
+    background-color: #f0f0f0;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+#calendar td.selected {
+    background-color: #cce5ff; /* Fondo azul claro */
+    border: 2px solid #007bff; /* Borde azul */
+    color: #007bff; /* Color del texto */
+}

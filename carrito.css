@@ -1,0 +1,61 @@
+.contenedor-carrito {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.item-carrito {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.item-carrito img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.item-carrito .info {
+    flex: 1;
+}
+
+.item-carrito .info h3 {
+    margin: 0;
+}
+
+.item-carrito .info .precio {
+    color: #f85151;
+}
+
+.item-carrito .info button {
+    background-color: #f85151;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+button.finalizar {
+    background-color: #f85151;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.formulario {
+    margin-top: 20px;
+}
+
+.formulario .form-control {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+}
+
+.formulario .form-label {
+    margin-bottom: 0.5rem;
+}
